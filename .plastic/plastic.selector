@@ -1,4 +1,3 @@
 repository "Factory-Clicker/Factory-Clicker@17867602285423@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"
