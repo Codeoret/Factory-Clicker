@@ -4,11 +4,10 @@ public class Score_Keeper : MonoBehaviour
 {
     public int Score = 0;
 
-    public void AddScore(int amount)
+    public void AddScore()
     {
-        Score += amount;
+        Score ++;
         Debug.Log("Score: " + Score);
     }
-
 
 }
